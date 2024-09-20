@@ -38,8 +38,8 @@
         
         0%{ background-image : url("image/background-picture.jpg");  } 
         0.5%{background-image : url("image/background-picture2.jpg");}
-       1%{background-image : url("image/background-picture3.jpg");}
-       1.5%{background-image : url("image/background-picture2.jpg");}
+       0.5%{background-image : url("image/background-picture3.jpg");}
+       0.5%{background-image : url("image/background-picture2.jpg");}
 
      }
 
