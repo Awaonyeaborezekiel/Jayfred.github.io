@@ -37,9 +37,9 @@
      @keyframes logo-holder{
         
         0%{ background-image : url("image/background-picture.jpg");  } 
-        30%{background-image : url("image/background-picture2.jpg");}
-       60%{background-image : url("image/background-picture3.jpg");}
-       90%{background-image : url("image/background-picture2.jpg");}
+        10%{background-image : url("image/background-picture2.jpg");}
+       20%{background-image : url("image/background-picture3.jpg");}
+       30%{background-image : url("image/background-picture2.jpg");}
 
      }
 
