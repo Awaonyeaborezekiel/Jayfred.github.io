@@ -1,5 +1,4 @@
-@media only screen and (min-width:100px) {
-
+@media  screen and (min-width: 200px) and ( max-width:700px ){
     *{
  
      box-sizing: borser-box;
@@ -23,23 +22,23 @@
  
       /* the logo and it name on the top on the website  */
      .logo-holder{ 
- 
+        background-image : url("image/background-picture2.jpg");
           background-image: center ;
           background-size: cover; 
          background-repeat: no-repeat;
           border-radius : 5px;
          padding-bottom: 25rem;
          padding-top: 1rem;
-        /*animation: logo-holder 8s ease-in-out infinite ;*/
+         animation: logo-holder 8s ease-in-out infinite ;
 
      }
 
      @keyframes logo-holder{
         
         0%{ background-image : url("image/background-picture.jpg");  } 
-        40%{background-image : url("image/background-picture2.jpg");}
-       70%{background-image : url("image/background-picture3.jpg");}
-       100%{background-image : url("image/background-picture2.jpg");}
+        20%{background-image : url("image/background-picture2.jpg");}
+       40%{background-image : url("image/background-picture3.jpg");}
+       80%{background-image : url("image/background-picture2.jpg");}
 
      }
 
@@ -191,7 +190,7 @@
  
       /* the stylesheet for big screen*/
  
- @media only screen and (min-width:750px) {
+ @media only screen and (min-width:750px) and ( max-width:1500px ){
  
      *{
  
@@ -217,26 +216,28 @@
        /* the logo and it name on the top on the website  */
       .logo-holder{ 
  
-          
+        
            background-image: center ;
            background-size: cover; 
          background-repeat: no-repeat;
            border-radius : 5px;
           padding-bottom: 25rem;
           padding-top: 1rem;
+          animation: logo-holder 8s ease-in-out infinite ;
       }
 
       @keyframes logo-holder{
         
         0%{ background-image : url("image/background-picture.jpg");  } 
-        40%{background-image : url("image/background-picture2.jpg");}
-       70%{background-image : url("image/background-picture3.jpg");}
+        20%{background-image : url("image/background-picture2.jpg");}
+       40%{background-image : url("image/background-picture3.jpg");}
        100%{background-image : url("image/background-picture2.jpg");}
 
      }
 
 
-    
+
+
  
       .logo-div {
           border-radius : 5px;
