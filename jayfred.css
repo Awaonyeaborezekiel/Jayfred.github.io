@@ -39,7 +39,7 @@
         0%{ background-image : url("image/background-picture.jpg");  } 
         30%{background-image : url("image/background-picture2.jpg");}
        60%{background-image : url("image/background-picture3.jpg");}
-       100%{background-image : url("image/background-picture2.jpg");}
+       90%{background-image : url("image/background-picture2.jpg");}
 
      }
 
