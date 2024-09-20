@@ -27,8 +27,8 @@
           background-size: cover; 
          background-repeat: no-repeat;
           border-radius : 5px;
-         padding-bottom: 25rem;
-         padding-top: 1rem;
+         padding-bottom: 8rem;
+         padding-top: 0.9rem;
          animation: logo-holder 8s ease-in-out infinite ;
 
      }
