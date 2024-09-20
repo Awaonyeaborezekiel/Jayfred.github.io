@@ -1,4 +1,4 @@
-@media  screen and (min-width: 200px) and ( max-width:700px ){
+@media  screen and (min-width: 100px) and ( max-width:700px ){
     *{
  
      box-sizing: borser-box;
@@ -22,7 +22,7 @@
  
       /* the logo and it name on the top on the website  */
      .logo-holder{ 
-        background-image : url("image/background-picture2.jpg");
+      
           background-image: center ;
           background-size: cover; 
          background-repeat: no-repeat;
@@ -38,7 +38,7 @@
         0%{ background-image : url("image/background-picture.jpg");  } 
         20%{background-image : url("image/background-picture2.jpg");}
        40%{background-image : url("image/background-picture3.jpg");}
-       80%{background-image : url("image/background-picture2.jpg");}
+       100%{background-image : url("image/background-picture2.jpg");}
 
      }
 
@@ -89,8 +89,8 @@
  .first-head {
      line-height: 1.7;
       color:white;
-      text-align: center; 
-       font-size : 12px;
+      text-align: center;
+      font-size: 12px;
        padding: 0;
        margin: 0;
      }
@@ -190,7 +190,7 @@
  
       /* the stylesheet for big screen*/
  
- @media only screen and (min-width:750px) and ( max-width:1500px ){
+ @media only screen and (min-width:750px) and ( max-width:2500px ){
  
      *{
  
@@ -229,8 +229,8 @@
       @keyframes logo-holder{
         
         0%{ background-image : url("image/background-picture.jpg");  } 
-        20%{background-image : url("image/background-picture2.jpg");}
-       40%{background-image : url("image/background-picture3.jpg");}
+        33%{background-image : url("image/background-picture2.jpg");}
+       66%{background-image : url("image/background-picture3.jpg");}
        100%{background-image : url("image/background-picture2.jpg");}
 
      }
