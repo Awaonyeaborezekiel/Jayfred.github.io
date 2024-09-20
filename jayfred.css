@@ -36,10 +36,10 @@
 
      @keyframes logo-holder{
         
-        1%{ background-image : url("image/background-picture.jpg");  } 
-        10%{background-image : url("image/background-picture2.jpg");}
-       20%{background-image : url("image/background-picture3.jpg");}
-       30%{background-image : url("image/background-picture2.jpg");}
+        0%{ background-image : url("image/background-picture.jpg");  } 
+        40%{background-image : url("image/background-picture2.jpg");}
+       70%{background-image : url("image/background-picture3.jpg");}
+       100%{background-image : url("image/background-picture2.jpg");}
 
      }
 
@@ -228,9 +228,9 @@
 
       @keyframes logo-holder{
         
-        10%{ background-image : url("image/background-picture.jpg");  } 
-        33%{background-image : url("image/background-picture2.jpg");}
-       66%{background-image : url("image/background-picture3.jpg");}
+        0%{ background-image : url("image/background-picture.jpg");  } 
+        40%{background-image : url("image/background-picture2.jpg");}
+       70%{background-image : url("image/background-picture3.jpg");}
        100%{background-image : url("image/background-picture2.jpg");}
 
      }
